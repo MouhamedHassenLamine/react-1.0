@@ -1,0 +1,33 @@
+body{
+    background-image: url(https://cdn.wallpapersafari.com/18/72/WFCoBQ.jpeg);
+    background-size: 100%;
+}
+.fstyle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: rgba(128, 128, 128, 0.886);
+    border-radius: 10px;
+    height: 30em;
+    margin-left: 45%;
+    margin-top: 6em;
+}
+.cont{
+  line-height: 2em;
+  position: absolute;
+  top: 15em;
+  left: 2%;
+  color: white;
+  animation: contan 2s;
+}
+@keyframes contan{
+  from{
+    opacity: 0;
+    top: 20em;
+  }
+  to{
+    opacity: 1;
+    top: 15em;
+  }
+}
